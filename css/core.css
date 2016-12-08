@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:url(../img/background.jpg) no-repeat top/cover;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+
+ul::after {
+	content:"";
+	display:none;
+	clear:both;	
+}
+
+ul li {
+	float:left;	
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin:0;
+	padding:0;
+	font-size:100%;	
+}
+
+a {
+	text-decoration:none;	
+}
+
+input, button {
+	outline:none;	
+}
